@@ -1,0 +1,27 @@
+{
+  "name": "kigo",
+  "version": "0.0.1",
+  "description": "Cross-platform supported plugin framework.",
+  "main": "index.js",
+  "repository": "https://github.com/lisk809/kigo",
+  "author": "Lisk",
+  "license": "MIT",
+  "scripts":{
+    "dev":"tsc -w",
+    "build":"tsc && tsc-alias",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "@vmoe/eslint-config": "^0.6.1",
+    "@vmoe/prettier-config": "^1.1.1",
+    "eslint": "^9.8.0",
+    "prettier": "^3.3.3",
+    "tsc-alias": "^1.8.10",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "esbuild": "^0.23.0"
+  }
+}
